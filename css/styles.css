@@ -167,40 +167,40 @@ header {
       font-weight: 700;
       color: #b6bcc8;
       text-decoration: line-through; }
-    .product .priceWrapper .counterWrapper {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #f7f8fd;
-      padding: 1.2rem 2.4rem;
-      margin-top: 2rem;
-      border-radius: 1rem; }
-      .product .priceWrapper .counterWrapper .counter {
-        font-size: 1.5rem;
-        font-weight: 700; }
-      .product .priceWrapper .counterWrapper #btnMinus,
-      .product .priceWrapper .counterWrapper #btnPlus {
-        cursor: pointer;
-        padding: 1rem;
-        border-radius: 0.5rem; }
-        .product .priceWrapper .counterWrapper #btnMinus:hover,
-        .product .priceWrapper .counterWrapper #btnPlus:hover {
-          opacity: 0.5;
-          background-color: #ffede0; }
-    .product .priceWrapper .addBtn {
-      background-color: #ff7d1a;
-      color: white;
-      margin-top: 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-      font-size: 1.55rem;
-      font-weight: 700;
-      border-radius: 1rem;
-      padding: 1.9rem;
-      box-shadow: 0px 20px 30px 0px #ffede0;
-      cursor: pointer; }
-      .product .priceWrapper .addBtn img {
-        height: 1.5rem;
-        filter: brightness(300%); }
+  .product .counterWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f8fd;
+    padding: 1.2rem 2.4rem;
+    margin-top: 2rem;
+    border-radius: 1rem; }
+    .product .counterWrapper .counter {
+      font-size: 1.5rem;
+      font-weight: 700; }
+    .product .counterWrapper #btnMinus,
+    .product .counterWrapper #btnPlus {
+      cursor: pointer;
+      padding: 1rem;
+      border-radius: 0.5rem; }
+      .product .counterWrapper #btnMinus:hover,
+      .product .counterWrapper #btnPlus:hover {
+        opacity: 0.5;
+        background-color: #ffede0; }
+  .product .addBtn {
+    background-color: #ff7d1a;
+    color: white;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    padding: 1.9rem;
+    box-shadow: 0px 20px 30px 0px #ffede0;
+    cursor: pointer; }
+    .product .addBtn img {
+      height: 1.5rem;
+      filter: brightness(300%); }

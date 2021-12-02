@@ -10,7 +10,7 @@
 	align-items: center;
 	justify-content: center;
 	.btnClose {
-		width: 57rem;
+		width: 60rem;
 		text-align: end;
 		padding: 2rem 0;
 		img {
@@ -19,7 +19,7 @@
 		}
 	}
 	.lightbox {
-		max-width: 57rem;
+		max-width: 60rem;
 		.next {
 			display: flex;
 			right: 0;
@@ -38,4 +38,4 @@
 
 .hidden {
 	display: none;
-}       
+}
